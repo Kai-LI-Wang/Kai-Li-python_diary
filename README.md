@@ -1,1 +1,1 @@
-# Kai-Li-python_diary
+Simple Pairs Trading with stocks
