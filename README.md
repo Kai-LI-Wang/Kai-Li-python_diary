@@ -7,7 +7,7 @@
 ### S1. 首先，計算每隻股票的標準差,並轉置成矩正
 - Standard Deviation(SD) - 公式(1)
 
-![](https://i.imgur.com/11QKQVU.png)
+![](https://i.imgur.com/DhGPopQ.png)
 ### S2. 再計算covariance 矩正
 - Covariance Matrix - 公式(2)
 
