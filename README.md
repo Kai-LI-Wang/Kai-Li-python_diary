@@ -6,7 +6,7 @@ This stock portfolio construction is based on the theory of Markowits mean-varia
 ![](https://i.imgur.com/2PKM7k4.pngjpg=100x100)
 
 - Covariance Matrix
-![](https://i.imgur.com/tvMAl4h.pngjpg=250x)
+![](https://i.imgur.com/tvMAl4h.pngjpg=100x100)
 
 
 ## Getting Started 
