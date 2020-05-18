@@ -1,10 +1,16 @@
 # Asset allocation for Stock Portfolio 
-This stock portfolio construction is based on the theory of Markowits mean-variance method. The idea is to find the optimised weights for maximal sharpe ratio. 
+This stock portfolio construction is based on the theory of Markowits mean-variance method. The idea is to find the optimised weights for maximal sharpe ratio. Based on the Markowits theory, I create large amount of random weights array for each porfolio and pick the one with the highest sharpe ratio. 
 
-Based on the Markowits theory, I create large amount of random weights array for each porfolio and pick the one with the highest sharpe ratio. 
+### Steps:
+- Expected Return of Portfolio
+![](https://i.imgur.com/2PKM7k4.pngjpg=250x)
+
+- Covariance Matrix
+![](https://i.imgur.com/tvMAl4h.pngjpg=250x)
+
 
 ## Getting Started 
-![Covariance Matrix](https://i.imgur.com/fP7rAbo.pngjpg=250x)
+
 
 
 ## Running the test 
