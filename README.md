@@ -4,8 +4,7 @@ This stock portfolio construction is based on the theory of Markowits mean-varia
 Based on the Markowits theory, I create large amount of random weights array for each porfolio and pick the one with the highest sharpe ratio. 
 
 ## Getting Started 
-
-![Covariance Matrix](https://i.imgur.com/mFCPzk6.pngjpg=350x)
+![Covariance Matrix](https://i.imgur.com/fP7rAbo.pngjpg=250x)
 
 
 ## Running the test 
