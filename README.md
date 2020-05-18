@@ -3,7 +3,7 @@ This stock portfolio construction is based on the theory of Markowits mean-varia
 
 ### Steps:
 - Expected Return of Portfolio
-![](https://i.imgur.com/2PKM7k4.png |width=48)
+![](https://i.imgur.com/2PKM7k4.png | width=48)
 
 - Covariance Matrix
 ![](https://i.imgur.com/tvMAl4h.pngjpg=100x100)
