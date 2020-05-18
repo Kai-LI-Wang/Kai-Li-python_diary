@@ -4,12 +4,12 @@
 
 ## Steps:
 
-### S1. 首先，計算每隻股票的標準差
+### S1. 首先，計算每隻股票的標準差,並轉置成矩正
 - Standard Deviation(SD) - 公式(1)
 ![](https://i.imgur.com/11QKQVU.png)
 ### S2. 再計算covariance 矩正
 - Covariance Matrix - 公式(2)
-![](https://i.imgur.com/tvMAl4h.png) 
+![](https://i.imgur.com/HHAfUtE.png)
 ### S3. 並將 covariance 矩正除上標準差來獲得 correlation 矩正
 - Correlation Matrix - 公式(3)
 ![](https://i.imgur.com/syr2jq8.png)
