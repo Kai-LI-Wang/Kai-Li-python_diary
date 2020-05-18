@@ -13,16 +13,17 @@
 ### 並將 covariance 矩正除上標準差來獲得 correlation 矩正
 - Correlation Matrix - 公式(3)
 ![](https://i.imgur.com/syr2jq8.png)
+### 利用correlation matrix 來計算投資組合標準差
+- Standard Deviation of Portfolio - 公式(4)
+![](https://i.imgur.com/Nq86N23.png)
 
-### 
+### 計算投資組合預期報酬
 - Expected Return of Portfolio - 公式(4)
 ![](https://i.imgur.com/2PKM7k4.png)
 
-###  
-- Sharpe Ratio - 公式(2)
+### 獲得預期報酬與投資組合標準差即可計算夏普比率（無風險利率假設為 30年treasury yield） 
+- Sharpe Ratio - 公式(5)
 ![](https://i.imgur.com/cob2R7e.png)
-
-
 
 
 
