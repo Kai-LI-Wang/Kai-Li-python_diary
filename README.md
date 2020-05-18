@@ -5,7 +5,7 @@ Based on the Markowits theory, I create large amount of random weights array for
 
 ## Getting Started 
 
-![covariance](https://i.imgur.com/mFCPzk6.png)
+![covariance](https://i.imgur.com/mFCPzk6.pngjpg =350x)
 
 
 ## Running the test 
