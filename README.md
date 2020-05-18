@@ -1,17 +1,19 @@
-# Asset allocation for Stock Portfolio 
-This stock portfolio construction is based on the theory of Markowits mean-variance trade-off method. The idea is to find the the weights for each compositions in the portfolio with maximal sharpe ratio. Based on the Markowits theory, I used for loop to create large amount of random weights array for each porfolio and pick the one with the highest sharpe ratio. The detail of steps shown in the following. 
+# Asset allocation for Stock Portfolio  
+
+股票投資組合算法主要是來自於 Markowits 的 Modern Porfolio Theory(MPT), 目的是為了找出能最大化夏普比率(sharpe ratio)的投資組合權重, 夏普比率所代表的是1單位的風險能創造出多少報酬, 當夏普比率是越高, 代表者相同風險下的報酬就會越高, 理論上創造出最大的夏普比率的投資權重是風險與報酬最完美的投資組合 
 
 ## Steps:
-The formula of the sharpe ratio is shown in the formula(2), below. The Rp is denoted by return of portfolio and the Rf is risk-free rate. In order to calculate the sharpe ratio, I compute the portfolio return, the formula (2). 
 
-### - sharpe ratio - 公式(1)
+
+
+### Sharpe Ratio - 公式(1)
 ![](https://i.imgur.com/cob2R7e.png)
 
 
-### - Expected Return of Portfolio - 公式(2)
+### Expected Return of Portfolio - 公式(2)
 ![](https://i.imgur.com/2PKM7k4.png)
 
-### - Covariance Matrix - 公式(3)
+### Covariance Matrix - 公式(3)
 ![](https://i.imgur.com/tvMAl4h.png)
 
 
