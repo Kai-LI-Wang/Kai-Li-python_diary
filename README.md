@@ -4,28 +4,28 @@
 
 ## Steps:
 
-### 首先，計算每隻股票的標準差
+### S1. 首先，計算每隻股票的標準差
 - Standard Deviation(SD) - 公式(1)
 ![](https://i.imgur.com/11QKQVU.png)
-### 再計算covariance 矩正
+### S2. 再計算covariance 矩正
 - Covariance Matrix - 公式(2)
 ![](https://i.imgur.com/tvMAl4h.png) 
-### 並將 covariance 矩正除上標準差來獲得 correlation 矩正
+### S3. 並將 covariance 矩正除上標準差來獲得 correlation 矩正
 - Correlation Matrix - 公式(3)
 ![](https://i.imgur.com/syr2jq8.png)
-### 利用correlation matrix 來計算投資組合標準差
+### S4. 利用correlation matrix 來計算投資組合標準差
 - Standard Deviation of Portfolio - 公式(4)
 ![](https://i.imgur.com/Nq86N23.png)
 
-### 計算投資組合預期報酬
+### S5. 計算投資組合預期報酬
 - Expected Return of Portfolio - 公式(4)
 ![](https://i.imgur.com/2PKM7k4.png)
 
-### 獲得預期報酬與投資組合標準差即可計算夏普比率（無風險利率假設為 30年treasury yield） 
+### S6. 獲得預期報酬與投資組合標準差即可計算夏普比率（無風險利率假設為 30年treasury yield） 
 - Sharpe Ratio - 公式(5)
 ![](https://i.imgur.com/cob2R7e.png)
 
-
+### S7. 最後, 隨機模擬投資組合權重10000次並從中挑出夏普值最高的投資組合
 
 
 ## Getting Started 
