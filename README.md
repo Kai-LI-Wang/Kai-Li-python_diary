@@ -11,5 +11,7 @@
 先去 wiki 擷取sp500的ticker, 並隨機選取50個ticker並將其分為n(n-1)/2個組合進行cointegration測試, 將測試結果為cointegrated的組合中的兩個資產(x,y)相除以計算價格比率(x/y), 再來計算價格比率的移動平均線, 並計算將移動平均線的 Z Score, 此目的為找出異常偏離平均的價格, 當價格比率過高代表資產x過大或資產y過小, 此時即可做空x 與作多y, 因為價格比率最終會返回平均 
 
 ## 理論
-本文中使用python 模組 statsmodels.tsa.stattools 中的 coint函數, 此函數主要是使用 augmented Engle-Granger two-step cointegration test, 這個test是先計算回歸模型的residual, 再將residual與自身lag進行回歸並利用t-test再檢視residual 是否為stationary, 如果是即為cointegrated
-
+### Cointegration 
+本文中使用python 模組 statsmodels.tsa.stattools 中的 coint函數, 此函數主要是使用 augmented Engle-Granger two-step cointegration test, 這個test是先計算回歸模型的residual, 再將residual與自身lag進行回歸並利用t-test再檢視residual 是否為stationary, 如果是,即為cointegrated
+### Z score 
+z score 是一種標準化的作法, 可以計算時間序列的變動性, 其概念上與sharpe ratio相似, z score 探討一個單位標準差會有多少價格與平均數的差異, 如果兩個資產為cointegrated, 那這個 z score 遲早會回到平均
